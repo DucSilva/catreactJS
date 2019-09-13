@@ -1,0 +1,33 @@
+.modal-content {
+    background: transparent;
+    width: auto;
+}
+.modal-header {
+    border: none;
+}
+
+.modal-footer {
+    border: none;
+    padding: 0px;
+}
+
+.modal-body {
+    padding: 0px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 300px;
+    grid-template-areas: "a a" "a a";
+}
+
+.grid-item {
+    text-align: center;
+    margin-bottom: 20vh;
+    grid-area: a;
+    justify-self: center;
+    align-self: center;
+}
